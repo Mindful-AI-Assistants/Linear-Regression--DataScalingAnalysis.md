@@ -1,8 +1,7 @@
-# Linear-Regression--DataScalingAnalysis.md
-
-
 
 # Linear Regression and Data Scaling Analysis
+
+<br>
 
 ## Project Overview
 
