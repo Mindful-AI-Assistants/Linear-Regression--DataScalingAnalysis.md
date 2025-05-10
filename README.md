@@ -1,8 +1,7 @@
-# Linear-Regression--DataScalingAnalysis.md
-
-
 
 # Linear Regression and Data Scaling Analysis
+
+<br>
 
 ## Project Overview
 
@@ -307,8 +306,9 @@ $$
 3.F-Statistic (ANOVA)
 
 $$
-F = \frac{\text{MS}_{\text{model}}}{\text{MS}_{\text{residual}}}
+F = \frac{\text{MS}\_\text{model}}{\text{MS}\_\text{residual}}
 $$
+
 
 
 
