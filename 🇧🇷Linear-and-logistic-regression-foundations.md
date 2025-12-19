@@ -11,9 +11,7 @@ Eles não são apenas “básicos”.
 Eles são **fundacionais**.
 
 
-
 <br><br>
-
 
 
 ## 📈 Regressão Linear — prever valores contínuos
@@ -55,23 +53,32 @@ A probabilidade é comparada a um limiar (ex.: 0.5).
 ### 🌬️ Intuição
 O modelo aprende uma **fronteira de decisão linear**, mas expressa a saída como **grau de confiança**.
 
----
 
-## 🔍 Principais diferenças
+<br><br>
+
+##  Principais diferenças
 
 ### Saída
+
 - Regressão linear → valores contínuos  
 - Regressão logística → probabilidades / classes  
 
+<br>
+
 ### Função de erro
+
 - Linear → erro quadrático  
 - Logística → log-loss (entropia cruzada)  
 
+<br>
+
 ### Uso principal
+
 - Linear → previsão  
 - Logística → classificação  
 
----
+
+<br><br>
 
 ## ✔️ Em comum, ambas
 
@@ -80,7 +87,9 @@ O modelo aprende uma **fronteira de decisão linear**, mas expressa a saída com
 - **escalam bem**  
 - funcionam como **ótimos baselines**
 
----
+
+<br><br>
+
 
 ## 👌🏻 Por que continuam tão importantes?
 
@@ -90,14 +99,16 @@ O modelo aprende uma **fronteira de decisão linear**, mas expressa a saída com
 - continuam competitivas em muitos cenários industriais  
 - muitos sistemas em produção usam regressão linear ou logística até hoje, porque **simplicidade, estabilidade e interpretabilidade também são vantagens**
 
----
+
+<br><br>
+
 
 ## ⭐ Conclusão
 
 Antes de redes profundas e modelos gigantes, vale sempre perguntar:
 
-> **Um modelo linear bem ajustado já resolve o problema?**
+**Um modelo linear bem ajustado já resolve o problema?**
 
 Entender regressão linear e logística é entender o **núcleo do aprendizado de máquina** — e é por isso que esses modelos continuam tão relevantes.
 
-🕊️ **Simples não significa fraco. Muitas vezes, significa robusto.**
+### 🕊️ **Simples não significa fraco. Muitas vezes, significa robusto.**
