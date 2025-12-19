@@ -66,19 +66,25 @@ A preprocessing technique that adjusts numerical values in a dataset to a standa
    - **Formula:**
 
 
-     \[
-     X_{\text{norm}} = \frac{X - X_{\min}}{X_{\max} - X_{\min}}
-     \]
-   - **Result:** Values scaled to the \[0, 1\] interval.  
+$$
+X_{\text{norm}} = \frac{X - X_{\min}}{X_{\max} - X_{\min}}
+$$
+   
+- **Result:** Values scaled to the \[0, 1\] interval.  
 
 
-<br><br>
+<br>
+
 
 ### 2. **Standardization (Z-Score)**  
 
    - **Formula:**
+
+
+<br>
     
 $$
+\Huge
 X_{\text{std}} = \frac{X - \mu}{\sigma}
 $$
   
@@ -89,20 +95,25 @@ $$
    - **Result:** Data with a mean of 0 and standard deviation of 1.  
 
 
-<br><br>
+<br>
 
 ### 3. **Robust Scaling**  
 
    - Uses the median and interquartile range (IQR) to reduce the impact of outliers.
      
    - **Formula:**
+
+
+<br>     
      
 $$
+\Huge
 X_{\text{robust}} = \frac{X - \text{Median}(X)}{\text{IQR}(X)}
 $$
 
 
 <br><br>
+
 
 
 ## Why is this Important in Machine Learning?  
