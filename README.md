@@ -1,15 +1,16 @@
 
 <br><br>
 
-# Linear Regression and Data Scaling Analysis
+# [Linear Regression and Data Scaling Analysis]()
 
 <br><br>
 
 
-## Project Overview
+## [Project Overview]()
 
 This project demonstrates a complete machine learning workflow for price prediction using:
-- **Stepwise Regression** for feature selection  
+
+- [**Stepwise Regression**]() for feature selection  
 - Advanced statistical analysis (ANOVA, R² metrics)  
 - Full model diagnostics  
 - Interactive visualization integration
@@ -25,6 +26,7 @@ This project demonstrates a complete machine learning workflow for price predict
 
 
 ## Table of Contents  
+
 1. [What is Data Normalization/Scaling?](#what-is-data-normalizationscaling)  
 2. [Common Scaling Methods](#common-scaling-methods)  
 3. [Why is this Important in Machine Learning?](#why-is-this-important-in-machine-learning)  
@@ -48,32 +50,37 @@ This project demonstrates a complete machine learning workflow for price predict
 
 <br><br>
 
-## What is Data Normalization/Scaling?  
+## [What is Data Normalization/Scaling ?]()  
 
 A preprocessing technique that adjusts numerical values in a dataset to a standardized scale (e.g., \[0, 1\] or \[-1, 1\]). This is essential for:  
 
 <br>
 
-- **Reducing outlier influence**  
-- **Ensuring stable performance** in machine learning algorithms (e.g., neural networks, SVM)  
-- **Enabling fair comparison** between variables with different units or magnitudes  
+- [**Reducing outlier influence**]()  
+- [**Ensuring stable performance**]() in machine learning algorithms (e.g., neural networks, SVM)  
+- [**Enabling fair comparison**]() between variables with different units or magnitudes  
 
 
 <br><br>
 
 
-## Common Scaling Methods  
+## [Common Scaling Methods]()  
 
 ### 1. **Min-Max Scaling (Normalization)**  
 
-   - **Formula:**
+- [**Formula:**]()
+  
+
+<br>
 
 
 $$
 X_{\text{norm}} = \frac{X - X_{\min}}{X_{\max} - X_{\min}}
 $$
    
-- **Result:** Values scaled to the \[0, 1\] interval.  
+<br>
+
+- [**Result:**]() Values scaled to the \[0, 1\] interval.  
 
 
 <br>
@@ -81,7 +88,7 @@ $$
 
 ### 2. **Standardization (Z-Score)**  
 
-   - **Formula:**
+- [**Formula:**]()
 
 
 <br>
@@ -94,8 +101,9 @@ $$
 
 <br>
    
-   - **Where:** \(\mu\) is the mean and \(\sigma\) is the standard deviation.  
-   - **Result:** Data with a mean of 0 and standard deviation of 1.  
+- [**Where:**]() \(\mu\) is the mean and \(\sigma\) is the standard deviation.  
+
+- [**Result:**]() Data with a mean of 0 and standard deviation of 1.  
 
 
 <br>
