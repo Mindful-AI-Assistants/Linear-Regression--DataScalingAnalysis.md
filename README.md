@@ -24,7 +24,7 @@ This project demonstrates a complete machine learning workflow for price predict
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/repo-name/blob/main/price_prediction.ipynb)
 
-
+[![Open in Colab](https://colab.research.google.com/drive/1ELn9-EXlSCUblD2-FyT_Cladp9gpUyD0)
 
 <br><br>
 
