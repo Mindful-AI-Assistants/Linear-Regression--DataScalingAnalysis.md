@@ -1,7 +1,10 @@
 
+<br><br>
+
 # Linear Regression and Data Scaling Analysis
 
-<br>
+<br><br>
+
 
 ## Project Overview
 
@@ -13,7 +16,10 @@ This project demonstrates a complete machine learning workflow for price predict
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/repo-name/blob/main/price_prediction.ipynb)
 
----
+
+
+<br><br>
+
 
 ## Table of Contents  
 1. [What is Data Normalization/Scaling?](#what-is-data-normalizationscaling)  
@@ -35,63 +41,112 @@ This project demonstrates a complete machine learning workflow for price predict
    - [Code Implementation](#code-implementation)  
    - [Stepwise Regression](#stepwise-regression)
 
----
+
+
+<br><br>
 
 ## What is Data Normalization/Scaling?  
+
 A preprocessing technique that adjusts numerical values in a dataset to a standardized scale (e.g., \[0, 1\] or \[-1, 1\]). This is essential for:  
+
+<br>
+
 - **Reducing outlier influence**  
 - **Ensuring stable performance** in machine learning algorithms (e.g., neural networks, SVM)  
 - **Enabling fair comparison** between variables with different units or magnitudes  
 
----
+
+<br><br>
+
 
 ## Common Scaling Methods  
 
-1. **Min-Max Scaling (Normalization)**  
-   - **Formula:**  
+### 1. **Min-Max Scaling (Normalization)**  
+
+   - **Formula:**
+
+
      \[
      X_{\text{norm}} = \frac{X - X_{\min}}{X_{\max} - X_{\min}}
      \]
    - **Result:** Values scaled to the \[0, 1\] interval.  
 
-2. **Standardization (Z-Score)**  
-   - **Formula:**  
+
+<br><br>
+
+### 2. **Standardization (Z-Score)**  
+
+   - **Formula:**
+    
      \[
      X_{\text{std}} = \frac{X - \mu}{\sigma}
      \]
+  
+
+<br>
+   
    - **Where:** \(\mu\) is the mean and \(\sigma\) is the standard deviation.  
    - **Result:** Data with a mean of 0 and standard deviation of 1.  
 
-3. **Robust Scaling**  
-   - Uses the median and interquartile range (IQR) to reduce the impact of outliers.  
-   - **Formula:**  
+
+<br><br>
+
+### 3. **Robust Scaling**  
+
+   - Uses the median and interquartile range (IQR) to reduce the impact of outliers.
+     
+   - **Formula:**
+     
      \[
      X_{\text{robust}} = \frac{X - \text{Median}(X)}{\text{IQR}(X)}
      \]
 
----
+
+<br><br>
+
 
 ## Why is this Important in Machine Learning?  
-- **Scale-sensitive algorithms:** Methods like neural networks, SVM, and KNN rely on the distances between data points; unscaled data can hinder model convergence.  
-- **Interpretation:** Variables with different scales can distort the weights in linear models (e.g., logistic regression).  
-- **Optimization Speed:** Gradients in optimization algorithms converge faster with normalized data.
 
 <br>
 
-## Practical Example  
-For a dataset containing:  
-- **Age:** Values between 18–90 years  
-- **Salary:** Values between \$1k–\$20k  
+- **Scale-sensitive algorithms:** Methods like neural networks, SVM, and KNN rely on the distances between data points; unscaled data can hinder model convergence.  
 
-After applying **Min-Max Scaling**:  
+- **Interpretation:** Variables with different scales can distort the weights in linear models (e.g., logistic regression).  
+
+- **Optimization Speed:** Gradients in optimization algorithms converge faster with normalized data.
+
+
+<br><br>
+
+## Practical Example  
+
+### For a dataset containing:  
+
+- **Age:** Values between 18–90 years  
+
+- **Salary:** Values between \$1k–\$20k
+
+
+<br><br>
+
+
+ ### After applying **Min-Max Scaling**:
+ 
 - **Age 30** transforms to approximately \[0.17\]  
-- **Salary \$5k** transforms to approximately \[0.21\]  
+
+- **Salary \$5k** transforms to approximately \[0.21\]
+
+<br>  
 
 This process ensures both features contribute equally to the model.
 
-<br>
+
+<br><br>
+
 
 ## Code Example (Python) – Data Normalization
+
+<br>
 
 ```python
 from sklearn.preprocessing import MinMaxScaler
@@ -105,12 +160,21 @@ normalized_data = scaler.fit_transform(data)
 print(normalized_data)
 # Expected Output: [[0.17], [0.21]]
 ```
-<br>
+
+<br><br>
+
+
 Linear Regression: Price Prediction Case Study 📈
- Dataset: housing_data.xlsx (included in repository) Tech Stack: Python 3.9, Jupyter Notebook, scikit-learn, statsmodels
+ 
+Dataset: housing_data.xlsx (included in repository) Tech Stack: Python 3.9, Jupyter Notebook, scikit-learn, statsmodels
+
+
+<br><br> 
 
 
 ## I. Use Case Implementation & Dataset Description
+
+<br>
 
 
 | Variable       | Type  | Range         | Description                          |
@@ -122,8 +186,12 @@ Linear Regression: Price Prediction Case Study 📈
 
 
 
+<br><br> 
 
-<br>  ## II. Methodology (Stepwise Regression)
+
+ ## II. Methodology (Stepwise Regression)
+
+ <br>
 
 
 ```python
@@ -164,9 +232,14 @@ def stepwise_selection(X, y):
 ```
 
 
-<br>  ## III. Statistical Analysis
+<br><br> 
+
+
+## III. Statistical Analysis
 
 ### Key Metrics Table
+
+<br>
 
 
 | Metric         | Value   | Interpretation                  |
@@ -178,15 +251,19 @@ def stepwise_selection(X, y):
 
 
 
-<br>  ### Correlation Matrix
+<br><br>   
+
+
+### Correlation Matrix
+
+<br>
 
 ```python
 import seaborn as sns
 corr_matrix = df.corr()
 sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
-``
-
-<br>
+```
+```br>
 
 ## IV. Full Implementation Code
 
@@ -210,7 +287,9 @@ rmse = np.sqrt(mse)
 r2 = final_model.score(X_test[selected_features], y_test)
 ```
 
-<br>
+
+<br><br>
+
 
 ## V. Visualization – Actual vs Predicted Prices
 
@@ -228,32 +307,51 @@ plt.savefig('results/scatter_plot.png')
 plt.show()
 ```
 
-<br>
+<br><br>
+
+
 
 ## VI. How to Run
 
+<br>
 
+
+### 1. Install Dependencies:
+
+```bash
+pip install -r requirements.txt
 ```
-1. Install Dependencies: ```bash pip install -r requirements.txt
- ```
-
 
 <br> 
-2. Download Dataset:
-    * From: data/housing_data.xlsx
-    * Or use this [dataset link]()
+
+
+### 2. Download Dataset:
 
 <br>
 
-   3..Execute Jupyter Notebook:  
+   * From: data/housing_data.xlsx
+   * Or use this [dataset link]()
+
+
+<br>
+
+
+###  3..Execute Jupyter Notebook:  
+
+<br>
 
 ```bash
     jupyter notebook price_prediction.ipynb
-
 ```
-  Note: Full statistical outputs and diagnostic plots are available in the notebook.
 
 <br>
+
+>  Note: Full statistical outputs and diagnostic plots are available in the notebook.
+
+
+
+'<br><br>
+
 
 ## Linear Regression Analysis Report 📊
 
@@ -267,7 +365,9 @@ plt.show()
 
 > For real-world datasets, consider exploring sources such as the [UC Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php) or [Kaggle](https://www.kaggle.com/datasets).
 
-<br>
+
+<br><br>
+
 
 
 | Variable    | Type  | Range         | Description                          |
@@ -280,7 +380,8 @@ plt.show()
 
 
 
-<br>
+<br><br>
+
 
 ## Key Formulas
 
@@ -292,7 +393,7 @@ $$
 \hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_n x_n
 $$
 
-<br>
+<br><br>
 
 
 2.R-Squared
@@ -301,7 +402,9 @@ $$
 R^2 = 1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}
 $$
 
-<br>
+
+<br><br>
+
 
 3.F-Statistic (ANOVA)
 
@@ -310,9 +413,8 @@ F = \frac{\text{MS}\_\text{model}}{\text{MS}\_\text{residual}}
 $$
 
 
+<br><br>
 
-
-<br>
 
 ## Statistical 
 
@@ -325,6 +427,8 @@ $$
 | F-statistic | 124.7  | 4.89           | p < 0.001 (Significant)     |
 | Intercept   | 58,200 | -              | Base property value         |
 
+
+<br><br>
 
 
 ## Stepwise Regression
