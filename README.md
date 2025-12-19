@@ -1,11 +1,13 @@
 
 <br><br>
 
-# [Linear Regression and Data Scaling Analysis]()
+# <p align="center">   [Linear Regression and Data Scaling Analysis]()
 
 <br><br>
 
-![Image](https://github.com/user-attachments/assets/08c12156-c338-4fc9-835a-03d7e3bbbc2f)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/08c12156-c338-4fc9-835a-03d7e3bbbc2f" />
 
 <br><br>
 
