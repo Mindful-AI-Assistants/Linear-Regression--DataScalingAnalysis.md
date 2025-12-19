@@ -263,11 +263,15 @@ import seaborn as sns
 corr_matrix = df.corr()
 sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
 ```
-```br>
+
+<br><br>
+
 
 ## IV. Full Implementation Code
 
 ### Model Training & Evaluation
+
+<br>
 
 ```python
 from sklearn.linear_model import LinearRegression
@@ -292,6 +296,8 @@ r2 = final_model.score(X_test[selected_features], y_test)
 
 
 ## V. Visualization – Actual vs Predicted Prices
+
+<br>
 
 ```python
 import matplotlib.pyplot as plt
@@ -318,6 +324,8 @@ plt.show()
 
 ### 1. Install Dependencies:
 
+<br>
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -331,7 +339,6 @@ pip install -r requirements.txt
 
    * From: data/housing_data.xlsx
    * Or use this [dataset link]()
-
 
 <br>
 
@@ -349,13 +356,12 @@ pip install -r requirements.txt
 >  Note: Full statistical outputs and diagnostic plots are available in the notebook.
 
 
-
-'<br><br>
+<br><br>
 
 
 ## Linear Regression Analysis Report 📊
 
-### Dataset Overview - 
+### Dataset Overview 
 
 📌 **Important Note:**  
 
@@ -367,7 +373,6 @@ pip install -r requirements.txt
 
 
 <br><br>
-
 
 
 | Variable    | Type  | Range         | Description                          |
@@ -387,16 +392,17 @@ pip install -r requirements.txt
 
 <br>
 
-1.Regression Equation
+1. Regression Equation
 
 $$
 \hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_n x_n
 $$
 
+
 <br><br>
 
 
-2.R-Squared
+2. R-Squared
 
 $$
 R^2 = 1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}
@@ -406,7 +412,7 @@ $$
 <br><br>
 
 
-3.F-Statistic (ANOVA)
+3. F-Statistic (ANOVA)
 
 $$
 F = \frac{\text{MS}\_\text{model}}{\text{MS}\_\text{residual}}
@@ -432,6 +438,8 @@ $$
 
 
 ## Stepwise Regression
+
+<br>
 
 ```python
 import statsmodels.api as sm
@@ -465,8 +473,6 @@ def stepwise_selection(X, y, threshold_in=0.05, threshold_out=0.1):
             break
     return included
 ```
-
-#
 
 <br><br>
 
