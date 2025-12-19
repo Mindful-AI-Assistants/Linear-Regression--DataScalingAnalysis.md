@@ -85,6 +85,11 @@ $$
 
 <br>
 
+#
+
+<br>
+
+
 
 ### 2. **Standardization (Z-Score)**  
 
@@ -106,7 +111,10 @@ $$
 - [**Result:**]() Data with a mean of 0 and standard deviation of 1.  
 
 
+#
+
 <br>
+
 
 ### 3. **Robust Scaling**  
 
