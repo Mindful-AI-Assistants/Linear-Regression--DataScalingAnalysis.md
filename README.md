@@ -9,7 +9,7 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/08c12156-c338-4fc9-835a-03d7e3bbbc2f" />
 
- [🇬🇧 Linear and Logistic Regression Foundations](https://github.com/Mindful-AI-Assistants/Linear-Regression--DataScalingAnalysis/blob/278a48144edced3422a2b40baa32fe65fe2e4aa9/%F0%9F%87%AC%F0%9F%87%A7Linear-and-logistic-regression-foundations.md)  -  [🇧🇷 Linear and Logistic Regression Foundations](https://github.com/Mindful-AI-Assistants/Linear-Regression--DataScalingAnalysis/blob/679e0ff37cea25c3853110c9a046acd8f6ce127c/%F0%9F%87%A7%F0%9F%87%B7Linear-and-logistic-regression-foundations.md)
+<p align="center"> [🇬🇧 Linear and Logistic Regression Foundations](https://github.com/Mindful-AI-Assistants/Linear-Regression--DataScalingAnalysis/blob/278a48144edced3422a2b40baa32fe65fe2e4aa9/%F0%9F%87%AC%F0%9F%87%A7Linear-and-logistic-regression-foundations.md)  -  [🇧🇷 Linear and Logistic Regression Foundations](https://github.com/Mindful-AI-Assistants/Linear-Regression--DataScalingAnalysis/blob/679e0ff37cea25c3853110c9a046acd8f6ce127c/%F0%9F%87%A7%F0%9F%87%B7Linear-and-logistic-regression-foundations.md)
 
 <br><br>
  
