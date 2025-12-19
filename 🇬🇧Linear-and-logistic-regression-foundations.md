@@ -1,6 +1,6 @@
 <br><br>
 
-# Linear Regression and Logistic Regression  
+# Linear Regression and Logistic Regression Foundations
 ### Simple, foundational — and still indispensable
 
 In a world dominated by increasingly complex models, it is easy to forget that two of the most important machine learning algorithms are also among the simplest: **linear regression** and **logistic regression**.
