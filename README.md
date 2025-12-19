@@ -16,14 +16,18 @@
 
 This project demonstrates a complete machine learning workflow for price prediction using:
 
+<br>  
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ELn9-EXlSCUblD2-FyT_Cladp9gpUyD0#revisionId=0B7p2OprIwdM2SmkrZ0N4REVhc2EzU0xnZW0zNkYzT20zYUlNPQ)
+
+
+<br>  
+
 - [**Stepwise Regression**]() for feature selection  
 - Advanced statistical analysis (ANOVA, R² metrics)  
 - Full model diagnostics  
 - Interactive visualization integration
 
-<br>  
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ELn9-EXlSCUblD2-FyT_Cladp9gpUyD0#revisionId=0B7p2OprIwdM2SmkrZ0N4REVhc2EzU0xnZW0zNkYzT20zYUlNPQ)
 
 <br><br>
 
