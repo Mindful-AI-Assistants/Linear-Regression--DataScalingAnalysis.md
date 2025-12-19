@@ -405,29 +405,32 @@ pip install -r requirements.txt
 
 <br>
 
-1. Regression Equation
+### 1. Regression Equation
 
 $$
+\Huge
 \hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_n x_n
 $$
 
 
-<br><br>
+<br>
 
 
-2. R-Squared
+### 2. R-Squared
 
 $$
+\Huge
 R^2 = 1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}
 $$
 
 
-<br><br>
+<br>
 
 
-3. F-Statistic (ANOVA)
+###3. F-Statistic (ANOVA)
 
 $$
+\Hug e
 F = \frac{\text{MS}\_\text{model}}{\text{MS}\_\text{residual}}
 $$
 
