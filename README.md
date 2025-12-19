@@ -78,9 +78,9 @@ A preprocessing technique that adjusts numerical values in a dataset to a standa
 
    - **Formula:**
     
-     \[
-     X_{\text{std}} = \frac{X - \mu}{\sigma}
-     \]
+$$
+X_{\text{std}} = \frac{X - \mu}{\sigma}
+$$
   
 
 <br>
@@ -97,9 +97,9 @@ A preprocessing technique that adjusts numerical values in a dataset to a standa
      
    - **Formula:**
      
-     \[
-     X_{\text{robust}} = \frac{X - \text{Median}(X)}{\text{IQR}(X)}
-     \]
+$$
+X_{\text{robust}} = \frac{X - \text{Median}(X)}{\text{IQR}(X)}
+$$
 
 
 <br><br>
@@ -116,7 +116,9 @@ A preprocessing technique that adjusts numerical values in a dataset to a standa
 - **Optimization Speed:** Gradients in optimization algorithms converge faster with normalized data.
 
 
+
 <br><br>
+
 
 ## Practical Example  
 
@@ -130,7 +132,7 @@ A preprocessing technique that adjusts numerical values in a dataset to a standa
 <br><br>
 
 
- ### After applying **Min-Max Scaling**:
+## After applying **Min-Max Scaling**:
  
 - **Age 30** transforms to approximately \[0.17\]  
 
